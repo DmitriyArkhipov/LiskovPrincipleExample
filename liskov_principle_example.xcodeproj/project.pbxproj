@@ -19,6 +19,7 @@
 		8127FA2F1D54F286008F310D /* Brand_C_TemperatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA2E1D54F286008F310D /* Brand_C_TemperatureController.m */; };
 		8127FA321D54F841008F310D /* TemperatureFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA311D54F841008F310D /* TemperatureFactory.m */; };
 		8127FA351D5507E1008F310D /* CleverTemperatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA341D5507E1008F310D /* CleverTemperatureController.m */; };
+		81FCF80E1D8B0CD900A808BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 81FCF80D1D8B0CD900A808BB /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		8127FA311D54F841008F310D /* TemperatureFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureFactory.m; sourceTree = "<group>"; };
 		8127FA331D550402008F310D /* CleverTemperatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleverTemperatureController.h; sourceTree = "<group>"; };
 		8127FA341D5507E1008F310D /* CleverTemperatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleverTemperatureController.m; sourceTree = "<group>"; };
+		81FCF80D1D8B0CD900A808BB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		8127FA001D54933C008F310D = {
 			isa = PBXGroup;
 			children = (
+				81FCF80D1D8B0CD900A808BB /* LICENSE */,
 				8127FA0B1D54933C008F310D /* liskov_principle_example */,
 				8127FA0A1D54933C008F310D /* Products */,
 			);
@@ -176,6 +179,7 @@
 			files = (
 				8127FA1C1D54933C008F310D /* LaunchScreen.storyboard in Resources */,
 				8127FA191D54933C008F310D /* Assets.xcassets in Resources */,
+				81FCF80E1D8B0CD900A808BB /* LICENSE in Resources */,
 				8127FA171D54933C008F310D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +350,7 @@
 				8127FA221D54933C008F310D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
