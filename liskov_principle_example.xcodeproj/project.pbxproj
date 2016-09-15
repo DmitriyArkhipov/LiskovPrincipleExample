@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8127FA0E1D54933C008F310D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA0D1D54933C008F310D /* main.m */; };
+		8127FA111D54933C008F310D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA101D54933C008F310D /* AppDelegate.m */; };
+		8127FA141D54933C008F310D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA131D54933C008F310D /* ViewController.m */; };
+		8127FA171D54933C008F310D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8127FA151D54933C008F310D /* Main.storyboard */; };
+		8127FA191D54933C008F310D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8127FA181D54933C008F310D /* Assets.xcassets */; };
+		8127FA1C1D54933C008F310D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8127FA1A1D54933C008F310D /* LaunchScreen.storyboard */; };
+		8127FA251D54C4F9008F310D /* TemperatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA241D54C4F9008F310D /* TemperatureController.m */; };
+		8127FA291D54E94C008F310D /* Brand_A_TemperatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA281D54E94C008F310D /* Brand_A_TemperatureController.m */; };
+		8127FA2C1D54ED15008F310D /* Brand_B_TemperatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA2B1D54ED15008F310D /* Brand_B_TemperatureController.m */; };
+		8127FA2F1D54F286008F310D /* Brand_C_TemperatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA2E1D54F286008F310D /* Brand_C_TemperatureController.m */; };
+		8127FA321D54F841008F310D /* TemperatureFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA311D54F841008F310D /* TemperatureFactory.m */; };
+		8127FA351D5507E1008F310D /* CleverTemperatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127FA341D5507E1008F310D /* CleverTemperatureController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8127FA091D54933C008F310D /* liskov_principle_example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liskov_principle_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8127FA0D1D54933C008F310D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8127FA0F1D54933C008F310D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8127FA101D54933C008F310D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8127FA121D54933C008F310D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8127FA131D54933C008F310D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8127FA161D54933C008F310D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8127FA181D54933C008F310D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8127FA1B1D54933C008F310D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8127FA1D1D54933C008F310D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8127FA241D54C4F9008F310D /* TemperatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureController.m; sourceTree = "<group>"; };
+		8127FA261D54C50A008F310D /* TemperatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureController.h; sourceTree = "<group>"; };
+		8127FA271D54E93B008F310D /* Brand_A_TemperatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand_A_TemperatureController.h; sourceTree = "<group>"; };
+		8127FA281D54E94C008F310D /* Brand_A_TemperatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brand_A_TemperatureController.m; sourceTree = "<group>"; };
+		8127FA2A1D54ED0B008F310D /* Brand_B_TemperatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand_B_TemperatureController.h; sourceTree = "<group>"; };
+		8127FA2B1D54ED15008F310D /* Brand_B_TemperatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brand_B_TemperatureController.m; sourceTree = "<group>"; };
+		8127FA2D1D54F274008F310D /* Brand_C_TemperatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand_C_TemperatureController.h; sourceTree = "<group>"; };
+		8127FA2E1D54F286008F310D /* Brand_C_TemperatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brand_C_TemperatureController.m; sourceTree = "<group>"; };
+		8127FA301D54F831008F310D /* TemperatureFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureFactory.h; sourceTree = "<group>"; };
+		8127FA311D54F841008F310D /* TemperatureFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureFactory.m; sourceTree = "<group>"; };
+		8127FA331D550402008F310D /* CleverTemperatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleverTemperatureController.h; sourceTree = "<group>"; };
+		8127FA341D5507E1008F310D /* CleverTemperatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleverTemperatureController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8127FA061D54933C008F310D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8127FA001D54933C008F310D = {
+			isa = PBXGroup;
+			children = (
+				8127FA0B1D54933C008F310D /* liskov_principle_example */,
+				8127FA0A1D54933C008F310D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8127FA0A1D54933C008F310D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8127FA091D54933C008F310D /* liskov_principle_example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8127FA0B1D54933C008F310D /* liskov_principle_example */ = {
+			isa = PBXGroup;
+			children = (
+				8127FA231D54934C008F310D /* Model */,
+				8127FA0F1D54933C008F310D /* AppDelegate.h */,
+				8127FA101D54933C008F310D /* AppDelegate.m */,
+				8127FA121D54933C008F310D /* ViewController.h */,
+				8127FA131D54933C008F310D /* ViewController.m */,
+				8127FA151D54933C008F310D /* Main.storyboard */,
+				8127FA181D54933C008F310D /* Assets.xcassets */,
+				8127FA1A1D54933C008F310D /* LaunchScreen.storyboard */,
+				8127FA1D1D54933C008F310D /* Info.plist */,
+				8127FA0C1D54933C008F310D /* Supporting Files */,
+			);
+			path = liskov_principle_example;
+			sourceTree = "<group>";
+		};
+		8127FA0C1D54933C008F310D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8127FA0D1D54933C008F310D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8127FA231D54934C008F310D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8127FA261D54C50A008F310D /* TemperatureController.h */,
+				8127FA241D54C4F9008F310D /* TemperatureController.m */,
+				8127FA271D54E93B008F310D /* Brand_A_TemperatureController.h */,
+				8127FA281D54E94C008F310D /* Brand_A_TemperatureController.m */,
+				8127FA2A1D54ED0B008F310D /* Brand_B_TemperatureController.h */,
+				8127FA2B1D54ED15008F310D /* Brand_B_TemperatureController.m */,
+				8127FA2D1D54F274008F310D /* Brand_C_TemperatureController.h */,
+				8127FA2E1D54F286008F310D /* Brand_C_TemperatureController.m */,
+				8127FA301D54F831008F310D /* TemperatureFactory.h */,
+				8127FA311D54F841008F310D /* TemperatureFactory.m */,
+				8127FA331D550402008F310D /* CleverTemperatureController.h */,
+				8127FA341D5507E1008F310D /* CleverTemperatureController.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8127FA081D54933C008F310D /* liskov_principle_example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8127FA201D54933C008F310D /* Build configuration list for PBXNativeTarget "liskov_principle_example" */;
+			buildPhases = (
+				8127FA051D54933C008F310D /* Sources */,
+				8127FA061D54933C008F310D /* Frameworks */,
+				8127FA071D54933C008F310D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liskov_principle_example;
+			productName = liskov_principle_example;
+			productReference = 8127FA091D54933C008F310D /* liskov_principle_example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8127FA011D54933C008F310D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dmitriy Arkhipov";
+				TargetAttributes = {
+					8127FA081D54933C008F310D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8127FA041D54933C008F310D /* Build configuration list for PBXProject "liskov_principle_example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8127FA001D54933C008F310D;
+			productRefGroup = 8127FA0A1D54933C008F310D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8127FA081D54933C008F310D /* liskov_principle_example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8127FA071D54933C008F310D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8127FA1C1D54933C008F310D /* LaunchScreen.storyboard in Resources */,
+				8127FA191D54933C008F310D /* Assets.xcassets in Resources */,
+				8127FA171D54933C008F310D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8127FA051D54933C008F310D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8127FA291D54E94C008F310D /* Brand_A_TemperatureController.m in Sources */,
+				8127FA2F1D54F286008F310D /* Brand_C_TemperatureController.m in Sources */,
+				8127FA2C1D54ED15008F310D /* Brand_B_TemperatureController.m in Sources */,
+				8127FA251D54C4F9008F310D /* TemperatureController.m in Sources */,
+				8127FA141D54933C008F310D /* ViewController.m in Sources */,
+				8127FA351D5507E1008F310D /* CleverTemperatureController.m in Sources */,
+				8127FA321D54F841008F310D /* TemperatureFactory.m in Sources */,
+				8127FA111D54933C008F310D /* AppDelegate.m in Sources */,
+				8127FA0E1D54933C008F310D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8127FA151D54933C008F310D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8127FA161D54933C008F310D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8127FA1A1D54933C008F310D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8127FA1B1D54933C008F310D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8127FA1E1D54933C008F310D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8127FA1F1D54933C008F310D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8127FA211D54933C008F310D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = liskov_principle_example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dmitriyarkhipov.liskov-principle-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8127FA221D54933C008F310D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = liskov_principle_example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dmitriyarkhipov.liskov-principle-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8127FA041D54933C008F310D /* Build configuration list for PBXProject "liskov_principle_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8127FA1E1D54933C008F310D /* Debug */,
+				8127FA1F1D54933C008F310D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8127FA201D54933C008F310D /* Build configuration list for PBXNativeTarget "liskov_principle_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8127FA211D54933C008F310D /* Debug */,
+				8127FA221D54933C008F310D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8127FA011D54933C008F310D /* Project object */;
+}
